@@ -5,8 +5,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import { useEffect } from 'react';
-import "@/_style/css/main.css";
-import "@/_style/css/resposiv.css"
+
 
 // export const metadata = {
 //   title: "YBF",
@@ -29,7 +28,8 @@ export default function RootLayout({ children }) {
         {/* <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
         <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
         <link href="/assets/vendor/aos/aos.css" rel="stylesheet" /> */}
-        {/* <link href="/assets/css/main.css" rel="stylesheet" /> */}
+        <link href="/assets/css/main.css" rel="stylesheet" />
+        <link href='/assets/css/resposiv.css' rel='stylesheet'/>
       </head>
       <body>
         {children}

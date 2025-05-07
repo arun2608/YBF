@@ -33,7 +33,7 @@ const page = () => {
                                         </div>
                                     </div>
                                     <div className="col-md-4 about-1-img">
-                                        <div className="position-relative mt-4"> <img src="/assets/img/about/1.webp" className="img-fluid rounded-4" alt="" /> <Link href="#" className="pulsating-play-btn"><i className="bi bi-play-circle"></i></Link> </div>
+                                        <div className="position-relative mt-4"> <img src="/assets/img/about/image2.jpeg" className="img-fluid rounded-4" alt="" />  </div>
                                     </div>
                                     <div className="col-md-4 d-flex align-items-end">
                                         <div className="span-text" data-aos="fade-up"
@@ -261,26 +261,13 @@ const page = () => {
                                 pagination={{
                                     clickable: true,
                                 }}
-                                breakpoints={{
-                                    640: {
-                                        slidesPerView: 1,
-                                        spaceBetween: 20,
-                                    },
-                                    768: {
-                                        slidesPerView: 1,
-                                        spaceBetween: 40,
-                                    },
-                                    1024: {
-                                        slidesPerView: 1,
-                                        spaceBetween: 50,
-                                    },
-                                }}
+                               
                                 modules={[ FreeMode, Pagination]}
                                 className="mis-slider mySwiper" data-aos="fade-right"
                                 data-aos-offset="300"
                                 data-aos-easing="ease-in-sine">
                                 <SwiperSlide>
-                                    <div className="item"> <img src="/assets/img/about/s-2.webp" className="img-fluid rounded-4" alt="" />
+                                    <div className="item item-3"> <img src="/assets/img/about/s-2.webp" className="img-fluid rounded-4" alt="" />
                                         <ul>
                                             <li>
                                                 <h5> Bring people together in a meaningful way through comprehensive training in spiritual, mental, physical, and financial leadership.
