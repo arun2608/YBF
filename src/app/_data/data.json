@@ -1,0 +1,30 @@
+{
+  "disclose": [
+    {
+      "heading": "Yes Disclose",
+      "id": 1
+    },
+    {
+      "heading": "Try to hide",
+      "id": 2
+    },
+    {
+      "heading": "Not Disclose",
+      "id": 3
+    }
+  ],
+  "urgency_level": [
+    {
+      "heading": "Normal",
+      "id": 1
+    },
+    {
+      "heading": "Urgent",
+      "id": 2
+    },
+    {
+      "heading": "Ultra Urgent",
+      "id": 3
+    }
+  ]
+}

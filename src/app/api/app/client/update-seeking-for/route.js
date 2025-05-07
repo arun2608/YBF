@@ -1,0 +1,86 @@
+import connectDB from "@/app/_config/connect";
+import userSeekingForModel from "@/app/_models/userSeekingForModel";
+import { verifyToken } from "@/app/_utils/jwt-app";
+import { NextResponse } from "next/server";
+
+export const POST = async (request) => {
+  await connectDB();
+
+  try {
+    const authHeader = request.headers.get("authorization");
+
+    if (!authHeader || !authHeader.startsWith("Bearer ")) {
+      return NextResponse.json(
+        { message: "No token provided", status: 0 },
+        { status: 401 }
+      );
+    }
+
+    const token = authHeader.split(" ")[1];
+    const decoded = verifyToken(token);
+
+    if (!decoded || !decoded.id) {
+      return NextResponse.json(
+        { message: "Invalid or expired token", status: 0 },
+        { status: 401 }
+      );
+    }
+
+    const userData = await request.json();
+
+    const requiredFields = ["seeking_for"];
+
+    for (const field of requiredFields) {
+      if (!userData[field] || userData[field].toString().trim() === "") {
+        return NextResponse.json({
+          message: `Missing or empty field: ${field}`,
+          status: 0,
+        });
+      }
+    }
+
+    let user = await userModel.findOne({ _id: decoded.id });
+
+    if (!user) {
+      return NextResponse.json({
+        message: "User not found",
+        status: 0,
+      });
+    }
+
+    let seekingForArray = [];
+    if (
+      seeking_for &&
+      typeof seeking_for === "string" &&
+      seeking_for.trim() !== ""
+    ) {
+      try {
+        seekingForArray = JSON.parse(seeking_for);
+      } catch (err) {
+        console.warn("Invalid service array", err);
+      }
+    }
+
+    // Save services to professionalServiceModel
+    await userSeekingForModel.deleteMany({ user_id: id });
+    if (Array.isArray(seekingForArray) && seekingForArray.length > 0) {
+      const seekingForDocs = seekingForArray.map((s) => ({
+        user_id: id,
+        seeking_for: s,
+      }));
+      await userSeekingForModel.insertMany(seekingForDocs);
+    }
+
+    return NextResponse.json({
+      message: "Seeking for updated successfully.",
+      status: 1,
+      data: userData, // optional: include updated data
+    });
+  } catch (err) {
+    console.error("Error updating user:", err);
+    return NextResponse.json({
+      message: "Internal server error",
+      status: 0,
+    });
+  }
+};

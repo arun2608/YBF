@@ -1,0 +1,476 @@
+/* @media (max-width:1200px) {
+
+
+} */
+
+@media (max-width:1281px) {
+    section {
+        padding: 90px 0px;
+    }
+}
+
+/* -----------------Home-page--------------- */
+
+@media (max-width:1281px) {
+    .content-title.banner-title {
+        margin-top: 20px;
+        font-size: 120px;
+        line-height: 120px;
+        font-weight: 900;
+        margin-left: 50px;
+    }
+
+    .testimonials .testimonial-item h2 {
+        font-size: 50px;
+        padding-top: 10px;
+        padding-left: 50px;
+
+    }
+
+    .testimonials .testimonial-item h2 span .quote-icon-left {
+        top: -76px;
+        left: -50px
+    }
+
+    .testimonials .testimonial-item .more-text h4 {
+        padding-left: 50px;
+        font-size: 25px;
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+
+    .testimonials .testimonial-item .more-text p {
+        padding-left: 50px;
+        font-size: 19px;
+    }
+
+    .button-container {
+        padding-left: 2px;
+    }
+
+    .foot-sec ul li a {
+        font-size: 17px;
+    }
+
+    .foot-sec ul li {
+        margin-left: 30px;
+    }
+
+    .blog-img {
+        width: 21%;
+        bottom: 13%;
+    }
+
+    .testimonial-item.blog-item {
+        margin-top: 10px;
+    }
+
+    .more-text ul li {
+        padding-left: 50px;
+        font-size: 19px;
+        margin-top: -10px;
+    }
+
+    .founder-img img {
+        max-width: 600px;
+    }
+
+    .blog-2 .blog-img {
+        max-width: 480px;
+    }
+
+    .blog-2 .testimonials .testimonial-item h2 {
+        font-size: 140px;
+        margin-top: -30px;
+    }
+
+    .footer-top {
+        margin-top: -68px;
+    }
+
+    .founder .testimonial-item .more-text p {
+        font-size: 13px;
+        margin-bottom: 19px;
+        line-height: 25px;
+    }
+
+    .founder .testimonial-item .more-text p:last-child {
+        margin-bottom: 20px;
+    }
+
+    .testimonials .testimonial-item {
+        margin-top: -30px;
+    }
+
+    .footer .copyright {
+        padding-top: 4px;
+    }
+
+    .audio-text p {
+        font-size: 19px;
+    }
+}
+
+@media (max-width:1440px) {
+    .content-title.banner-title {
+        margin-top: 20px;
+        font-size: 120px;
+        line-height: 120px;
+        font-weight: 900;
+        margin-left: 50px;
+    }
+
+    .testimonials .testimonial-item h2 {
+        font-size: 50px;
+        padding-top: 10px;
+        padding-left: 50px;
+
+    }
+
+    .testimonials .testimonial-item h2 span .quote-icon-left {
+        top: -76px;
+        left: -50px
+    }
+
+    .testimonials .testimonial-item .more-text h4 {
+        padding-left: 50px;
+        font-size: 25px;
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+
+    .testimonials .testimonial-item .more-text p {
+        padding-left: 50px;
+        font-size: 19px;
+    }
+
+    .button-container {
+        padding-left: 2px;
+    }
+
+    .foot-sec ul li a {
+        font-size: 17px;
+
+    }
+
+    .foot-sec ul li {
+        margin-left: 30px;
+    }
+
+    .blog-img {
+        width: 21%;
+        bottom: 13%;
+    }
+
+    .testimonial-item.blog-item {
+        margin-top: 10px;
+    }
+
+    .more-text ul li {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 19px;
+        margin-top: -10px;
+    }
+
+    .founder-img img {
+        max-width: 600px;
+    }
+
+    .blog-2 .blog-img {
+        max-width: 480px;
+    }
+
+    .blog-2 .testimonials .testimonial-item h2 {
+        font-size: 140px;
+        margin-top: -30px;
+    }
+
+    .footer-top {
+        margin-top: -68px;
+    }
+
+    .founder .testimonial-item .more-text p {
+        font-size: 13px;
+        margin-bottom: 19px;
+        line-height: 25px;
+    }
+
+    .founder .testimonial-item .more-text p:last-child {
+        margin-bottom: 20px;
+    }
+
+    .testimonials .testimonial-item {
+        margin-top: -30px;
+    }
+
+    .footer .copyright {
+        padding-top: 4px;
+    }
+
+    .audio-text p {
+        font-size: 19px;
+        padding-left: 20px;
+    }
+
+    .custom-form {
+        padding: 60px 60px 60px;
+
+    }
+
+    .wait-text h1 {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    .wait-text h5 {
+        font-size: 26px;
+    }
+
+    .wait-text ol li {
+        font-size: 18px;
+    }
+
+    .about-3 .audio-text p {
+        font-size: 25px;
+    }
+
+    .ques-div {
+        padding: 20px;
+        margin-top: -20px;
+    }
+
+    .ques-div h5 {
+        font-size: 15px;
+    }
+
+    .about-4 .audio-text h3 {
+        font-size: 120px;
+        line-height: 100px;
+        margin-bottom: 50px;
+
+    }
+
+    .about-4 {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .mis-slider .item h5 {
+        font-size: 15px;
+        line-height: 27px;
+    }
+
+    .background.blogs {
+        background-image: url(../../../public/assets/img/banner-3.webp);
+    }
+
+
+}
+
+/* ------------About-page------------- */
+@media (max-width:576px) {
+    .about-1 {
+        padding-top: 30px;
+    }
+
+    .about-2-img,
+    .play-img {
+        display: none;
+    }
+
+    .about-2 {
+        padding: 30px 15px 0px 15px;
+    }
+
+    .audio-text p {
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+
+    .about-3 .audio-text p {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+
+    .about-4 .audio-text h3 {
+        font-size: 70px;
+        font-weight: 900;
+        line-height: 68px;
+        color: #457EBF;
+    }
+
+    .main-2 {
+        width: 600px;
+        height: 600px;
+        position: relative;
+        top: -476px;
+        right: -90px;
+    }
+
+    .testimonials .testimonial-item {
+        text-align: left;
+        margin: 0 0 15px;
+        position: relative;
+        top: 250px;
+    }
+
+
+    .testimonials .testimonial-item h2 {
+        font-size: 43px;
+    }
+
+    .testimonials .testimonial-item h2 span .quote-icon-left {
+        font-size: 156px;
+        top: -52px;
+        left: -14px;
+    }
+
+    .about-4 .about-1-img {
+        width: 100%;
+        margin-right: 32px;
+    }
+
+    .about-5 .about-1.founder .sec-title h1 {
+        font-size: 120px;
+        line-height: 1px;
+    }
+
+    .about-5 .about-1.founder .sec-title .blue-text h4 {
+        font-size: 48px;
+        line-height: 25px;
+        margin-left: 35px
+    }
+
+    .about-6 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .item>ul {
+        padding: 0px !important;
+    }
+
+    .background.footer {
+        height: 130vh;
+    }
+
+    .footer .footer-about .logo img {
+        max-width: 80px
+    }
+
+    .footer-contact,
+    .copyright,
+    .footer-about,
+    .footer-links>h4,
+    .footer-links>ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sigle-item h1 {
+        font-size: 22px;
+    }
+
+    .bg-img-1 {
+        width: 100%;
+        height: 65vh;
+    }
+
+    .media-1 h1 {
+        font-size: 48px;
+        font-weight: 900;
+
+    }
+
+    .media-1 p {
+        width: 100%;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+
+    .wait-text h1 {
+        font-size: 46px;
+        font-weight: 900;
+        margin-top: 30px;
+    }
+
+    .wait-text {
+        padding: 20px;
+    }
+
+    .blog-2 .sec-title h1 {
+        font-size: 100px;
+        line-height: 11px;
+        line-break: auto;
+    }
+
+    .blog-2 .testimonials .testimonial-item h2 {
+        font-size: 40px;
+    }
+
+    .sec-title .feature h1 {
+        font-size: 100px;
+    }
+
+    .founder-img {
+        position: relative;
+        bottom: 160px;
+        right: -78px;
+    }
+
+    .testimonials .testimonial-item-2 {
+        position: relative;
+        top: -73px;
+    }
+
+    .testimonials .testimonial-item-3 {
+        position: relative;
+        top: 10px;
+    }
+
+    .testimonials .testimonial-item .more-text h4 {
+        font-size: 28px;
+    }
+
+    .testimonial-item.blog-item {
+        top: 320px;
+    }
+
+    .testimonial-item.blog-item h2 {
+        white-space: nowrap;
+        font-size: 40px;
+        margin-left: -10px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .blog-img {
+        width: 50%;
+        top: 46px;
+        right: 110px
+    }
+
+    .blog-img img {
+        width: 100%;
+    }
+
+    .blog-2 .blog-img {
+        top: 430px;
+    }
+
+    .background.blogs {
+        background-image: url(../../../public/assets/img/blogs/mobile-background-2.png);
+    }
+
+    .background.blogs>.sec-title.feature>h1 {
+        font-size: 120px;
+         font-weight: 900;
+         top: 0px;
+    }
+
+}
