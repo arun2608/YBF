@@ -1102,7 +1102,7 @@ header .head-btn a {
 }
 
 .foot-sec {
-    background: url("../../../public/assets/img/footer-bg.webp");
+    background: url(../assets/img/footer-bg.webp);
     padding: 26px 0px;
     display: flex;
     align-items: center;
@@ -1308,27 +1308,27 @@ header .head-btn a {
 }
 
 .background:first-child {
-    background-image: url("../../../public/assets/img/banner.webp");
+    background-image: url(../assets/img/banner.webp);
 }
 
 .background:nth-child(2) {
-    background-image: url("../../../public/assets/img/banner-2.webp");
+    background-image:url(../assets/img/banner-2.webp);
 }
 
 .background:nth-child(3) {
-    background-image: url("../../../public/assets/img/banner-3.webp");
+    background-image: url(../assets/img/banner-3.webp);
 }
 
 .background:nth-child(4) {
-    background-image: url("../../../public/assets/img/banner-2.webp");
+    background-image: url(../assets/img/banner-2.webp);
 }
 
 .background:nth-child(5) {
-    background-image: url("../../../public/assets/img/banner-2.webp");
+    background-image: url(../assets/img/banner-2.webp);
 }
 
 .background:nth-child(6) {
-    background-image: url("../../../public/assets/img/footer.webp");
+    background-image: url(../assets/img/footer.webp);
 }
 
 /* Set stacking context of slides */
@@ -1588,7 +1588,7 @@ header .head-btn a {
 }
 
 .bg-img-1 {
-    background-image: url("../../../public/assets/img/blogs/blog-1.webp");
+    background-image: url(../assets/img/blogs/blog-1.webp);
 }
 
 .bg-img-2 {

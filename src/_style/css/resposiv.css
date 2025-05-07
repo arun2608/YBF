@@ -262,7 +262,7 @@
     }
 
     .background.blogs {
-        background-image: url(../../../public/assets/img/banner-3.webp);
+        background-image: url(../assets/img/banner-3.webp);
     }
 
 
@@ -464,7 +464,7 @@
     }
 
     .background.blogs {
-        background-image: url(../../../public/assets/img/blogs/mobile-background-2.png);
+        background-image: url(../assets/img/blogs/mobile-background-2.png);
     }
 
     .background.blogs>.sec-title.feature>h1 {
